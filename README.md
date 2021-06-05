@@ -1,1 +1,0 @@
-# dalmoori.github.io
