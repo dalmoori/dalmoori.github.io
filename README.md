@@ -1,0 +1,2 @@
+-   [저작권 안내](./LICENSE.md)
+-   Powered by [Jekyll](https://jekyllrb.com/) with [Pineapple](https://github.com/arnolds/pineapple)
