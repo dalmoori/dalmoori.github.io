@@ -1,0 +1,36 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notice {
+  text-align: center;
+  background-color: var(--white);
+  width: 33%;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  line-height: 2;
+}
+
+.notice a {
+  color: var(--blue002);
+}
+
+/* Mobile */
+
+@media not all and (min-width: 640px) {
+  .notice {
+    width: 80%;
+  }
+}
+
+/* Tablet */
+
+@media not all and (min-width: 1024px) {
+  .notice {
+    width: 80%;
+  }
+}
