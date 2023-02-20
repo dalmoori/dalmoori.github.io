@@ -16,7 +16,7 @@ const Contact = () => {
       <h1 className="text-3xl font-bold md:text-4xl">Contact</h1>
 
       <div>
-        오탈자나 내용상의 오류를 발견하시면
+        오탈자나 오류를 발견하시면
         <br />
         하단 메일로 연락바랍니다.
       </div>

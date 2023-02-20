@@ -11,7 +11,7 @@ const Copyrights = () => {
           <div>ⓒ {year}.</div>
           <a
             href="https://dalmoori.github.io/"
-            className="text-socialKakao hover:text-yellow"
+            className="text-white md:text-socialKakao md:hover:text-yellow"
           >
             달무리 (Dalmoori)
           </a>

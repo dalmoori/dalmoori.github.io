@@ -6,7 +6,7 @@ const Repository = () => {
     <FooterSectionLayout title="Repository">
       <a
         href="https://github.com/orgs/dalmoori/repositories"
-        className="text-socialKakao hover:text-yellow"
+        className="text-white md:text-socialKakao md:hover:text-yellow "
         target={'_blank'}
         rel="noreferrer"
       >
