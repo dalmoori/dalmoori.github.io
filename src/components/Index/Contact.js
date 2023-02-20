@@ -21,12 +21,11 @@ const Contact = () => {
         하단 메일로 연락바랍니다.
       </div>
 
-      <div className="flex gap-x-5">
-        <a href={`mailto:${email}`} className="underline">
-          {email}
-        </a>
-        <BlackButton text={'메일 주소 복사'} fn={copyEmail} />
-      </div>
+      <a href={`mailto:${email}`} className="underline">
+        {email}
+      </a>
+
+      <BlackButton text={'메일 주소 복사'} fn={copyEmail} />
     </div>
   );
 };

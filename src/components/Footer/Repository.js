@@ -1,12 +1,12 @@
 import React from 'react';
-import FooterSectionLayout from '../../Layout/FooterSectionLayout';
+import FooterSectionLayout from '../Layout/FooterSectionLayout';
 
 const Repository = () => {
   return (
     <FooterSectionLayout title="Repository">
       <a
         href="https://github.com/orgs/dalmoori/repositories"
-        className="text-linkBlue hover:text-deepBlue"
+        className="text-socialKakao hover:text-yellow"
         target={'_blank'}
         rel="noreferrer"
       >

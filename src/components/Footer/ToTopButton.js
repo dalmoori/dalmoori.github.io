@@ -11,7 +11,7 @@ const ToTopButton = () => {
 
   return (
     <div className="cursor-pointer">
-      <FaArrowAltCircleUp color="black" size={25} onClick={scrollToTop} />
+      <FaArrowAltCircleUp color="white" size={25} onClick={scrollToTop} />
     </div>
   );
 };

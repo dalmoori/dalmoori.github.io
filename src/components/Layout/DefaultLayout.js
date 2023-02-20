@@ -6,7 +6,7 @@ import Favicon from '../../images/logos/favicon-32x32.png';
 
 const DefaultLayout = ({ children }) => {
   return (
-    <div className="flex flex-col h-full text-mainTextColor-light">
+    <div className="flex flex-col h-full text-mainTextColor-light bg-deepPurple text-mainTextColor-dark">
       <Helmet>
         <title>출판사 달무리 (Dalmoori)</title>
         <meta name="description" content={'출판사 달무리입니다.'} />
