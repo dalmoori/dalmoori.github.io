@@ -7,7 +7,7 @@ const ProductList = () => {
       {products
         .sort((a, b) => b.id - a.id)
         .map(({ id, title }) => (
-          <ProductItem id={id} title={title} />
+          <ProductItem key={id} id={id} title={title} />
         ))}
     </div>
   );

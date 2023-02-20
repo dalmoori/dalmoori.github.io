@@ -1,5 +1,6 @@
 import React from 'react';
 import FooterSectionLayout from '../Layout/FooterSectionLayout';
+import BlackButton from '../Button/BlackButton';
 
 const Repository = () => {
   return (
@@ -10,7 +11,7 @@ const Repository = () => {
         target={'_blank'}
         rel="noreferrer"
       >
-        소스 코드 자료실
+        <BlackButton text="소스 코드 자료실" />
       </a>
     </FooterSectionLayout>
   );

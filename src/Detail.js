@@ -20,7 +20,7 @@ const Detail = () => {
   return (
     <DefaultLayout>
       {productInfo ? (
-        <div className="flex flex-col items-center justify-center gap-y-10 md:grid md:grid-cols-5 md:items-start md:gap-x-10">
+        <div className="flex flex-col items-center justify-center pb-16 gap-y-10 md:grid md:grid-cols-5 md:items-start md:gap-x-10">
           <div className="w-6/12 md:w-full md:col-span-2">
             <img src={covers[id]} alt={productInfo.title} />
           </div>
@@ -39,27 +39,29 @@ const Detail = () => {
               </div>
             </div>
 
-            <div className="text-sm leading-6 text-left">
+            <div className="text-sm leading-6 text-left md:leading-7 md:text-base">
               {productInfo.summary}
             </div>
 
             {(productInfo.lecture || productInfo.repository) && (
               <DetailSectionLayout title="관련 링크">
-                {productInfo.lecture?.map((lecture, index) => (
-                  <div key={index}>
-                    <a href={lecture} className="underline">{`강의 링크 (${
-                      index + 1
-                    })`}</a>
-                  </div>
-                ))}
+                <div className="flex flex-col gap-y-3 md:flex-row md:gap-x-3">
+                  {productInfo.lecture?.map((lecture, index) => (
+                    <div key={index}>
+                      <a href={lecture} className="underline">{`강의 링크 (${
+                        index + 1
+                      })`}</a>
+                    </div>
+                  ))}
 
-                {productInfo.repository?.map((repo, index) => (
-                  <div key={index}>
-                    <a href={repo} className="underline">{`소스 코드 (${
-                      index + 1
-                    })`}</a>
-                  </div>
-                ))}
+                  {productInfo.repository?.map((repo, index) => (
+                    <div key={index}>
+                      <a href={repo} className="underline">{`소스 코드 (${
+                        index + 1
+                      })`}</a>
+                    </div>
+                  ))}
+                </div>
               </DetailSectionLayout>
             )}
 
@@ -75,7 +77,7 @@ const Detail = () => {
                   ))}
                 </div>
 
-                <div className="text-left">
+                <div className="text-sm leading-6 text-center md:text-left">
                   판매 중인 모든 도서는 교보문고, 예스24, 알라딘, 밀리의서재,
                   구글북스, 북큐브 등에서 구입 하실 수 있습니다.
                 </div>

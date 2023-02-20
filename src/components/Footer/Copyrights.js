@@ -9,10 +9,7 @@ const Copyrights = () => {
       <div className="flex flex-col gap-y-1 md:gap-y-0 md:flex-row md:gap-x-1">
         <div className="flex gap-x-1">
           <div>ⓒ {year}.</div>
-          <a
-            href="https://dalmoori.github.io/"
-            className="text-white md:text-socialKakao md:hover:text-yellow"
-          >
+          <a href="https://dalmoori.github.io/" className="underline">
             달무리 (Dalmoori)
           </a>
           <div>Co.</div>
