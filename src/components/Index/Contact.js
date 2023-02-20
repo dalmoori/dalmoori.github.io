@@ -12,8 +12,8 @@ const Contact = () => {
   };
 
   return (
-    <div className="flex flex-col gap-y-5">
-      <h1 className="text-3xl font-bold md:text-4xl">Contact</h1>
+    <div className="flex flex-col mb-5 gap-y-5">
+      <h3 className="text-2xl font-bold md:text-4xl">Contact</h3>
 
       <div>
         오탈자나 오류를 발견하시면

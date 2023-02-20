@@ -26,7 +26,7 @@ const Detail = () => {
           </div>
 
           <div className="flex flex-col items-center md:items-start gap-y-10 md:gap-y-5 md:col-span-3">
-            <h1 className="text-2xl font-bold">{productInfo.title}</h1>
+            <h1 className="font-bold">{productInfo.title}</h1>
 
             <div className="flex gap-x-5">
               <div>

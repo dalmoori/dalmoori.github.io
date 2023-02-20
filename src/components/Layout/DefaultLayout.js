@@ -18,7 +18,7 @@ const DefaultLayout = ({ children }) => {
       <Header />
 
       <div className="flex flex-col items-center justify-start flex-1 ">
-        <div className="flex flex-col items-center w-full pt-24 pb-24 mx-auto text-center gap-y-16 px-14 max-w-7xl sm:px-14 md:px-8 lg:px-8">
+        <div className="flex flex-col items-center w-full px-12 mx-auto text-center py-14 md:py-24 gap-y-16 max-w-7xl sm:px-12 md:px-8 lg:px-8">
           {children}
         </div>
       </div>
